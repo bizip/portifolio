@@ -1,0 +1,53 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "My personal website and blog post",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "dev": "webpack-dev-server --mode=development",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizip/portifolio.git"
+  },
+  "author": "Bizimungu Pascal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bizip/portifolio/issues"
+  },
+  "homepage": "https://github.com/bizip/portifolio#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-react": "^7.14.5",
+    "@types/jest": "^27.0.1",
+    "babel-jest": "^27.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest": "^27.1.0",
+    "jest-enzyme": "^7.1.2",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0",
+    "@babel/polyfill": "^7.0.0-beta.51",
+    "babel-core": "^7.0.0-bridge.0"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "D": "^1.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0"
+  }
+}
