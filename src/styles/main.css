@@ -1,3 +1,69 @@
 *{
-    background-color: #333;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+.navBar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    /* background: #246696; */
+    font-family: 'Ubuntu',san-serif;
+}
+.navBar .logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.maxWidth{
+    max-width: 13000px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navBar .menu li{
+    list-style: node;
+    display: inline-block;
+}
+.navBar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.navBar .maxWidth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home{
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.75)), url(../images/aa.png);
+    background-size: initial;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'Ubuntu',san-serif;
+}
+.home .maxWidth{
+    margin: auto 0 auto 400px;
+}
+.home .homeContent .text1{
+    font-size: 27px;
+}
+.home .homeContent .text2{
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .homeContent .text3{
+    font-size: 40px;
+    margin:5px 0;
+}
+.home .homeContent .text3 span{
+    color:#07cf21;
+   font-weight: 500;
 }
