@@ -1,8 +1,8 @@
-import React, { Fragment } from "react";
+import React,{Fragment} from 'react'
+const MainNavBar=()=>{
 
-const Header = () => {
-    return <Fragment>
-        <nav className="navBar">
+return <Fragment>
+     <nav className="navBar">
             <div className="maxWidth">
                 <div className="logo">
                     <a href='#'>Pas<span>cal</span></a>
@@ -16,7 +16,7 @@ const Header = () => {
                 </ul>
             </div>
         </nav>
-    </Fragment>
+</Fragment>
 
 }
-export default Header;
+export default MainNavBar;

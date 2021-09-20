@@ -1,5 +1,5 @@
 TN:
-SF:src\App.js
+SF:src/App.js
 FN:6,(anonymous_0)
 FNF:1
 FNH:0
@@ -12,7 +12,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src\Pages\LandingPage.js
+SF:src/Pages/LandingPage.js
 FN:4,(anonymous_0)
 FNF:1
 FNH:0
@@ -25,7 +25,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src\components\LandingPage\Header.js
+SF:src/components/LandingPage/Header.js
 FN:3,(anonymous_0)
 FNF:1
 FNH:0
@@ -38,7 +38,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:src\routes\Route.js
+SF:src/routes/Route.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:0
